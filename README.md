@@ -27,15 +27,15 @@ To address these inconveniences, the available tools are primarily fvm and fenv.
 
 ##Environments
 The environment variables are as follows
-
+```
 - fvm - '$HOME/.pub-cache/bin/fvm'
 - fenv - '$HOME/.fenv/bin/fenv'
-  
+```  
 The flutter SDK installation path is configured as a hidden folder for fenv.
-
+```
 - fvm - '$HOME/fvm/versions/{version_name}'
 - fenv - '$HOME/.fenv/versions/{version_name}'
-  
+```  
 After setting up the flutter SDK in the Flutter project, a symbolic link is created, and a file is created in the project path that defines which flutter SDK version the current project uses.
 
 ## Commands
