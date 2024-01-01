@@ -30,12 +30,12 @@ The environment variables are as follows
 
 - fvm - '$HOME/.pub-cache/bin/fvm'
 - fenv - '$HOME/.fenv/bin/fenv'
-- 
+  
 The flutter SDK installation path is configured as a hidden folder for fenv.
 
 - fvm - '$HOME/fvm/versions/{version_name}'
 - fenv - '$HOME/.fenv/versions/{version_name}'
-- 
+  
 After setting up the flutter SDK in the Flutter project, a symbolic link is created, and a file is created in the project path that defines which flutter SDK version the current project uses.
 
 ## Commands
@@ -62,7 +62,7 @@ FVM is currently used in many projects and has the advantage of being stable. Ho
 
 [FVM으로 Flutter 버전관리 하기](https://velog.io/@kjha2142/Flutter-FVM%EC%9C%BC%EB%A1%9C-Flutter-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC-%ED%95%98%EA%B8%B0)
 
-[FVM + Sidekick 으로 Flutter 버전관리 하기]([https://velog.io/@kjha2142/Flutter-FVM%EC%9C%BC%EB%A1%9C-Flutter-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC-%ED%95%98%EA%B8%B0](https://brunch.co.kr/@devbobby/5)https://brunch.co.kr/@devbobby/5)
+[FVM + Sidekick 으로 Flutter 버전관리 하기](https://brunch.co.kr/@devbobby/5)
 
 
 
