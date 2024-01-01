@@ -1,4 +1,4 @@
-# flutter_version_management - fvm vs fenv
+# flutter_version_management : fvm vs fenv
 
 ## The summary of the need for Flutter versioning is as follows:
 
@@ -7,7 +7,7 @@
 - Inconsistencies in Flutter SDK versions among different developers working on the same project can lead to varied execution results despite using the same code.
 
 ## Changing the Flutter SDK version typically involves the following process. 
-
+```
 // Changing the flutter version
 flutter upgrade
 flutter downgrade
@@ -16,7 +16,7 @@ flutter downgrade
 cd {flutter_sdk_path}
 git checkout {flutter_version}
 flutter doctor
-
+```
 - The Flutter SDK is maintained in a GitHub repository, and switching between channels (master/stable/beta) is slow.
 - Each time you change the Flutter SDK version, reinstallation and deletion are necessary.
 - Installing the SDK versions used and setting them for each project can be more efficient in terms of development environment setup.
